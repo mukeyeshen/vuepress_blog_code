@@ -15,7 +15,7 @@ yarn build
 cd public
 
 # 如果是发布到自定义域名
-# echo 'blog.spring.tk' > CNAME
+ echo 'blog.vueblog.tk' > CNAME
 
 git init
 git add -A
@@ -30,7 +30,7 @@ git push -f git@github.com:mukeyeshen/mukeyeshen.github.io.git master
 cd -
 
 # 第一次初次化仓库
-git init
+#git init
 
 git add -A
 git commit -m "rebuild @${cur_dateTime}"
